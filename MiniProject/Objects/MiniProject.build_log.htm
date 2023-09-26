@@ -1,0 +1,258 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: somaya ayman, ain shams, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\lenovo\Documents\MiniProject\MiniProject\MiniProject.uvprojx
+Project File Date:  09/26/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+
+FCARM uses the following Files via command file '.\Auto_FcArm_Cmd.inp':
+MiniProject.uvoptx,
+MiniProject.uvprojx 
+TO MiniProject RTE NOPRINT
+custom translating @.\Auto_FcArm_Cmd.inp...
+Custom: C:\Keil_v5\ARM\Bin\FCARM.exe @.\Auto_FcArm_Cmd.inp
+FCARM FILE CONVERTER V2.59
+Completed 2 File(s), Ratio 100%
+Note: source file 'MiniProject' - object file renamed from '.\Objects\MiniProject.o' to '.\Objects\miniproject_2.o'.
+STK_program.c(13): warning: In file included from...
+./STK_interface.h(49): warning: '/*' within block comment [-Wcomment]
+/**
+^
+STK_program.c(215): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+STK_program.c(220): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+3 warnings generated.
+compiling STK_program.c...
+compiling RCC_program.c...
+main.c(10): warning: In file included from...
+./STK_interface.h(49): warning: '/*' within block comment [-Wcomment]
+/**
+^
+main.c(86): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+ for(u32 i = 2000; i >= 0; i--){
+     ^
+main.c(105): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                        for(u32 i = 25000; i >= 0; i--){
+                                            ^
+main.c(120): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                        for(u32 i = 100000; i >= 0; i--){
+                            ^
+main.c(141): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                        for(u32 i = 25000; i >= 0; i--){
+                                            ^
+main.c(156): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                        for(u32 i = 100000; i >= 0; i--){
+                                            ^
+6 warnings generated.
+compiling main.c...
+compiling SCB_program.c...
+compiling GPIO_program.c...
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(37): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(44): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(58): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(65): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(72): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(79): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(86): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(93): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(100): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(107): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(114): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(121): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(128): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(135): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(142): warning: implicit truncation from 'INVALID_VALUE' (aka 'signed char') to bit-field changes value from -1 to 7 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(23): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+    for (u8 Line = 0; Line < EXTI_LINES_COUNT; Line++)
+         ^
+EXTI_program.c(48): warning: result of comparison of constant -1 with expression of type 'u8' (aka 'unsigned char') is always true [-Wtautological-constant-out-of-range-compare]
+            if (EXTI_Configurations[Line].GPIO_PortMap != EXTI_GPIO_NONE)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~
+17 warnings generated.
+compiling EXTI_program.c...
+compiling NVIC_Program.c...
+compiling AFIO_program.c...
+compiling MiniProject...
+compiling GPIO_STM32F10x.c...
+compiling DMA_STM32F10x.c...
+compiling EventRecorder.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=6240 RO-data=292 RW-data=16 ZI-data=2904  
+FromELF: creating hex file...
+".\Objects\MiniProject.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.ARM_Compiler.1.7.2.pack
+                Keil.ARM_Compiler.1.7.2
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.5.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: DMA Version: 1.3
+   * Component: GPIO Version: 1.3
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Compiler
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/lenovo/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Include
+  C:/Users/lenovo/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  C:/Users/lenovo/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.5.1
+      Include file:  Config/EventRecorderConf.h
+      Include file:  Include/EventRecorder.h
+      Source file:   Source/EventRecorder.c
+
+   * Component: Keil::Device:DMA:1.3
+      Include file:  RTE_Driver/DMA_STM32F10x.h
+      Source file:   RTE_Driver/DMA_STM32F10x.c
+
+   * Component: Keil::Device:GPIO:1.3
+      Include file:  RTE_Driver/GPIO_STM32F10x.h
+      Source file:   RTE_Driver/GPIO_STM32F10x.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/system_stm32f10x.c
+      Include file:  RTE_Driver/Config/RTE_Device.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
