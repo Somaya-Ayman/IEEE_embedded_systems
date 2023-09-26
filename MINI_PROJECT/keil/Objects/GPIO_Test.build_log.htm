@@ -1,0 +1,307 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: somaya ayman, ain shams, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\lenovo\Documents\IEEE workshop\IEEE_embedded_systems\MINI_PROJECT\keil\GPIO_Test.uvprojx
+Project File Date:  09/25/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling NVIC_Program.c...
+AFIO_program.c(54): warning: result of comparison of constant 117440512 with expression of type 'u8' (aka 'unsigned char') is always false [-Wtautological-constant-out-of-range-compare]
+    if (Copy_DebugConfig > AFIO_MAPR_SWJ_CFG_Msk)
+        ~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling AFIO_program.c...
+compiling RCC_program.c...
+STK_program.c(172): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+STK_program.c(177): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+2 warnings generated.
+compiling STK_program.c...
+compiling SCB_program.c...
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(51): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(58): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(65): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(72): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(79): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(86): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(93): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(100): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(107): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(114): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(121): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(128): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(135): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(142): warning: implicit truncation from 'int' to bit-field changes value from -10000000 to 0 [-Wbitfield-constant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                            ^~~~~~~~~~~~~~~~~~~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(142): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(135): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(128): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(121): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(114): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(107): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(100): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(93): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(86): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(79): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(72): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(65): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(58): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(19): warning: In file included from...
+./EXTI_config.h(51): warning: implicit conversion from 'int' to 'u8' (aka 'unsigned char') changes value from -10000000 to 128 [-Wconstant-conversion]
+        .GPIO_PortMap  = EXTI_GPIO_NONE,
+                         ^~~~~~~~~~~~~~
+./EXTI_interface.h(51): note: expanded from macro 'EXTI_GPIO_NONE'
+#define EXTI_GPIO_NONE      ((INVALID_VALUE)-1) /**< A special value indicating no GPIO port is mapped to the EXTI line. */
+                             ~~~~~~~~~~~~~~~^~
+EXTI_program.c(23): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+    for (u8 Line = 0; Line < EXTI_LINES_COUNT; Line++)
+         ^
+EXTI_program.c(48): warning: result of comparison of constant -10000000 with expression of type 'u8' (aka 'unsigned char') is always true [-Wtautological-constant-out-of-range-compare]
+            if (EXTI_Configurations[Line].GPIO_PortMap != EXTI_GPIO_NONE)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~
+30 warnings generated.
+compiling EXTI_program.c...
+main.c(103): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+         for(u32 k = 7000; k >= 0; k--){
+             ^
+main.c(126): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                           for(u32 i = 25000; i >= 0; i--){
+                                               ^
+main.c(143): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                for(u32 i = 100000; i >= 0; i--){
+                                    ^
+main.c(159): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                           for(u32 i = 25000; i >= 0; i--){
+                                               ^
+main.c(177): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+                                for(u32 i = 100000; i >= 0; i--){
+                                    ^
+5 warnings generated.
+compiling main.c...
+compiling GPIO_program.c...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=5748 RO-data=268 RW-data=16 ZI-data=1640  
+FromELF: creating hex file...
+".\Objects\GPIO_Test.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/lenovo/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
